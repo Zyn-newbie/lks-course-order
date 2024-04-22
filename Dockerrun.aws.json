@@ -1,0 +1,16 @@
+{
+   "AWSEBDockerrunVersion": "1",
+   "Authentication": {
+      "Bucket": "lks-tur-kepri", 
+      "Key": "config.json"
+   },
+   "Image": {
+      "Name": "682791326537.dkr.ecr.us-east-1.amazonaws.com/lks-order-image:latest"
+   },
+   "Ports": [
+      {
+         "ContainerPort": 8000,
+         "HostPort": 80
+      }
+   ]
+}
