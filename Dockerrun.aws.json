@@ -1,7 +1,7 @@
 {
    "AWSEBDockerrunVersion": "1",
    "Authentication": {
-      "Bucket": "lks-tur-kepri", 
+      "Bucket": "lks-tur-bucket", 
       "Key": "config.json"
    },
    "Image": {
